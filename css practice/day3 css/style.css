@@ -1,0 +1,57 @@
+/* This is a comment */
+
+p{
+    color:lightblue;
+    font-size: 20px;    
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-indent: 20px;
+    text-letter-spacing: 5px;
+    text-word-spacing: 5px;
+    line-height: normal;
+    
+    /* white-space: nowrap;  ek line madhe text */
+
+     /* direction:rtl; right to left  */
+
+
+    text-align-last: right;/*last line la align karne */
+    }
+h1{
+    text-align: center;
+    text-shadow: 20px 20px 20px red;
+}
+
+
+
+
+
+/*  font properties */
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 900%;
+    font-style: italic;
+    font-variant: small-caps;
+    font-variant: initial;
+    font-stretch: condensed;
+    line-height: 25px;
+}
+
+
+/* back`ground properties */
+section{
+    background-color: white;
+    height: 90vh;
+    width: 100%;
+
+    /* background-color: red; */
+    background:linear-gradient(rgb(0, 255, 30), yellow); /* gradient background   add two colors */      
+    /* background-image: url("./img2.webp"), url("./download1.jpg");  /* when we want add two images*/
+    /* background-blend-mode: darken;   dark image priprity
+      */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

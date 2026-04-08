@@ -1,0 +1,51 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-color: lightgray;
+    ;
+
+    animation-name: xyz;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes xyz {
+    0%{
+        background:radial-gradient( rgb(208, 67, 67), rgb(58, 201, 118));
+        border-radius: 20px;
+        transform: rotate(45deg);
+        margin-left: 500px;
+        transform: scale(0.4);
+       
+    }
+    25%{
+        background:radial-gradient( rgb(121, 67, 208), rgb(173, 232, 46));
+        border-radius: 20px;
+        transform: rotate(25deg);
+        margin-top: 250px;
+         transform: scale(1.4);
+       
+    }
+    50%{
+        background:radial-gradient( rgb(35, 228, 58), rgb(146, 234, 75));
+        border-radius: 20px;
+        transform: rotate(180deg);
+        margin-left: 500px;
+         transform: scale(0.4);
+       
+    }
+    75%{
+        background:radial-gradient( rgba(120, 232, 222, 0.378), rgb(78, 217, 236));
+        border-radius: 20px;
+        transform: rotate(215deg);
+        margin-left: 500px;
+         transform: scale(1.4);
+        
+    }
+    90%{
+       background:radial-gradient( rgb(208, 67, 67), rgb(58, 201, 118));
+        border-radius: 20px;
+        transform: rotate(360deg);
+        
+    }
+}

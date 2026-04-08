@@ -1,0 +1,30 @@
+nav{
+    height: 50px;
+    width:100%;
+    background-color: black;
+
+}
+
+a{
+    color:white;
+    text-decoration-line: none;
+}
+
+article{
+    height: 55px;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    align-content: center;
+}
+a:active{
+    
+     color: blue;
+}
+a:focus{
+    border: 2px solid green;
+}
+a::first-letter{
+    font-size: 30px;
+   
+}
