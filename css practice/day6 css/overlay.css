@@ -1,0 +1,25 @@
+img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50px;
+}
+section{
+    height: 500px;
+    width: 500px;
+    border-radius: 50px;
+    border-style: dashed;
+}
+.overlay{
+    height: 400px;
+    width: 400px;
+    border-style: solid;
+    background: radial-gradient( rgb(208, 67, 67), rgb(58, 201, 118));
+    position: absolute;
+    margin-top  : -400px;
+    opacity: 0;
+ 
+
+}
+section:hover .overlay{
+    opacity: 0.2;
+}
