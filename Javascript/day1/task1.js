@@ -15,6 +15,12 @@ let x=5;
 let y=10;
 console.log(x+y);
 
+let g=5;
+let j=4;
+let f=g+j;
+document.writeln(f);
+
+
 
 //take input from user
 let m=parseInt(prompt("Enter first number:"));
